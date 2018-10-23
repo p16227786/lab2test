@@ -1,0 +1,22 @@
+body { background-color: white; }
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  font-family: Times;
+  margin:20px 30px 50px;
+}
+
+a
+{
+  -webkit-transition: background 3s, font-size 3s;
+    transition: background 3s, font-size 3s;
+      font-size: 20px;
+}
+
+a:hover
+{
+     background-color: red;
+     font-size: 30px;
+     font-family: Verdana;
+ }
